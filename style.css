@@ -1,0 +1,11 @@
+body {
+    background-color: #000000;
+    color: #EEEEEE;
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
