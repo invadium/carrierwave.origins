@@ -1,0 +1,29 @@
+<html>
+ <head>
+    <title>Carrier Wave</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="js/carrier.js"></script>
+
+    <style>
+      canvas { border: 1px solid black; }
+    </style>
+
+  </head>
+
+  <body>
+    <canvas id="canvas" width="1000" height="600" style="border:2px solid #004060;"></canvas>
+
+    <audio id="background_player" autoplay loop>
+        <source src="snd/loop.ogg" type="audio/ogg">
+        <source src="snd/loop.mp3" type="audio/mp3">
+        <source src="snd/loop.wav" type="audio/wav">
+        Audio is not supported
+    </audio>
+
+    <div text-align="center">
+        <p align="center">Blue Player: <b>WASD</b> - allocate fuel and deploy drones, <b>E</b> - set connection, <b>R</b> - jump
+        -- <a href="help.html" style="color: #AAAAAA">Help</a> -- <a href="carrierwave.tgz" style="color: #AAAAAA">Download</a></p>
+    </div>
+  </body>
+</html>
